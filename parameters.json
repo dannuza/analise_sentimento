@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "datastores_workspaceartifactstore_secretsType": {
+            "value": null
+        },
+        "datastores_workspaceblobstore_secretsType": {
+            "value": null
+        },
+        "datastores_workspacefilestore_secretsType": {
+            "value": null
+        },
+        "datastores_workspaceworkingdirectory_secretsType": {
+            "value": null
+        },
+        "vaults_mlsentimentos3334157365_name": {
+            "value": null
+        },
+        "components_mlsentimentos0562971671_name": {
+            "value": null
+        },
+        "storageAccounts_mlsentimentos3397965791_name": {
+            "value": null
+        },
+        "workspaces_ml_sentimentos_name": {
+            "value": null
+        },
+        "workspaces_mlsentimentos9141227003_name": {
+            "value": null
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": null
+        }
+    }
+}
