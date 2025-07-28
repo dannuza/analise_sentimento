@@ -8,20 +8,6 @@ Será criado:
 2. Dados para treinamento
 3. Modelo de classificação de sentimento usando AutoML
 
-- Prints do Portal do Azure:
-
-Criar Serviços Cognitivos
-![Criar_cognitive_services] (print/Criar_cognitive_services.png)
-![Dados_cognitive_services] (print/Dados_cognitive_services.png)
-
-Habilitar/Desabilitar Exceções de Serviços Confiáveis
-![Hab_Desab_services1] (print/Hab_Desab_services1.png)
-![Hab_Desab_services2] (print/Hab_Desab_services2.png)
-
-Exportar o ARM Template do recurso
-![ARM_Template_JSON] (print/ARM_Template_JSON.png)
-
-
 - Como usar: Passo a passo
 
 1. Acesse o Portal do Azure Estúdio
@@ -66,8 +52,6 @@ Ative early stopping no AutoML → ele para de testar modelos ruins cedo.
 Reduza o número de iterações (Max concurrent iterations = 2, Max iterations = 5~10) se só quer validar o fluxo.
 
 Se for só um teste rápido, pode até rodar localmente (Jupyter com automl SDK), já que 61 linhas cabem tranquilo na memória.
-
-
 
 7. Avalie e publique o melhor modelo
   Após o AutoML treinar os modelos, clique no melhor modelo 
